@@ -1,0 +1,89 @@
+.header{
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #162282;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.cuerpo{
+    background-color: #e3e4e7;
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+
+.categoria{
+    display: flex;
+    gap: 8px;
+    padding-top: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    }
+
+.gride{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 40px;
+    margin-top: 10px;
+    gap: 30px;
+    margin-left: 30px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.nombre{
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.precio{
+    font-size: small;
+    color: grey;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.card img{
+    width: 400px;
+    height: 400px;
+}
+
+.boton{
+    background-color: #162282;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.footer{
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
